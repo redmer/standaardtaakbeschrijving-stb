@@ -1,0 +1,27 @@
+{
+  "name": "standaardtaakbeschrijving-stb",
+  "version": "1.0.0",
+  "description": " Standaardtaakbeschrijving (STB) is een handige tool om de inhoud van de opdracht te omschrijven ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/transform.mjs",
+    "publish": "node --env-file .env scripts/upload.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redmer/standaardtaakbeschrijving-stb.git"
+  },
+  "author": "Redmer Kronemeijer",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/redmer/standaardtaakbeschrijving-stb/issues"
+  },
+  "homepage": "https://github.com/redmer/standaardtaakbeschrijving-stb#readme",
+  "dependencies": {
+    "@triply/triplydb": "^8.2.3",
+    "eyereasoner": "^16.28.22",
+    "n3": "^1.22.3",
+    "node-xlsx": "^0.24.0"
+  }
+}
